@@ -13,4 +13,6 @@ The RJS lightweight rules require the position of the ball emitting IR waves to 
 
 Learn more about [IR ball](https://github.com/robocup-junior/ir-golf-ball).
 ## Hardware solution
-We use 
+We use as main brain atmega2560. There are 24 sensors around the circumference.
+
+## Software solution

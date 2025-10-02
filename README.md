@@ -4,3 +4,4 @@
 <img width="300" height="300" alt="Top view" src="https://github.com/user-attachments/assets/790fdb9e-d7a9-49ff-a266-bea45dbccb4f" />
 
 The RJS lightweight rules require the position of the ball emitting IR waves to be determined.
+<img width="400" height="300" alt="Top view" src="https://github.com/robocup-junior/ir-golf-ball/blob/main/img%2FIR_ball_modulation.png" />

@@ -19,3 +19,6 @@ The sensor is a custom PCB. We use as main brain atmega2560. 24 TSSP4038 sensors
 
 ## Software solution
 
+Due to the time limit of the ball study period and the need for uniform reading of the circle, at 833 microseconds, data is collected by bytes of pin registers and split into specific pins in a separate cycle. Vectors are constructed based on the sensors that receive the IR signal, with the beginning in the center of the board and the end in each sensor. We calculate a vector equal to the sum of all vectors constructed before the sensors, taking into account the vector on the sensor as many times as the IR signal was detected . The desired angle to the ball will be the angle of the final vector.
+The sensor readings are transmitted via the I2C protocol.
+
